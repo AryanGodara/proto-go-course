@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package example.simple;
 
-option go_package = "github.com/AryanGodara/proto-go-course";
+option go_package = "github.com/AryanGodara/proto-go-course/proto";
 
 message Simple {
     uint32 id = 1;

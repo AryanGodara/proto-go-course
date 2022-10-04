@@ -10,7 +10,7 @@ func doSimple() *pb.Simple {
 	return &pb.Simple{
 		Id:          42,
 		IsSimple:    true,
-		Name:        "A name",
+		Name:        "A Name",
 		SampleLists: []int32{1, 2, 3, 4, 5, 6},
 	}
 }
